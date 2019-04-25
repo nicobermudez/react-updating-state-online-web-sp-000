@@ -20,9 +20,7 @@ class ClickityClick extends React.Component {
     return (
       <div>
         <p>I have {this.state.hasBeenClicked ? null : 'not'} been clicked!</p>
-        <button onClick={this.handleClick}>Click me!</button>
-      </div>
-    );
+        <b
   }
 }
 
